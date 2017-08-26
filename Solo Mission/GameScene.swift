@@ -11,6 +11,7 @@ import GameplayKit
 
 class GameScene: SKScene {
     let player = SKSpriteNode(imageNamed: "Spaceship")
+    let bulletSound = SKAction.playSoundFileNamed("MissileSound.wav", waitForCompletion: false)
     override func didMove(to view: SKView) {
         let background = SKSpriteNode(imageNamed: "background")
         background.size = self.size
@@ -35,15 +36,25 @@ class GameScene: SKScene {
         
         let moveBullet = SKAction.moveTo(y: self.size.height + bullet.size.height, duration: 1)
         let deleteBullet = SKAction.removeFromParent()
-        let bulletSequence = SKAction.sequence([moveBullet, deleteBullet])
+        let bulletSequence = SKAction.sequence([bulletSound, moveBullet, deleteBullet])
         bullet.run(bulletSequence)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         fireBullet()
     }
-        
-        
+    
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        for touch: AnyObject in touches{
+            let pointOfTouch = touch.location(in: self)
+            let previousPointOfTouch = touch.previousLocation(in: self)
+            
+            let amountDragged = pointOfTouch.x - previousPointOfTouch.x
+            player.position.x += amountDragged
+        }
+    }
+    
+    
     }
     
         

@@ -15,6 +15,7 @@
 		6076D37C1F51C043009F2576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6076D37A1F51C043009F2576 /* Main.storyboard */; };
 		6076D37E1F51C043009F2576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6076D37D1F51C043009F2576 /* Assets.xcassets */; };
 		6076D3811F51C043009F2576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6076D37F1F51C043009F2576 /* LaunchScreen.storyboard */; };
+		6076D3891F51D768009F2576 /* MissileSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6076D3881F51D768009F2576 /* MissileSound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6076D37D1F51C043009F2576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6076D3801F51C043009F2576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6076D3821F51C043009F2576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6076D3881F51D768009F2576 /* MissileSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MissileSound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				6076D3781F51C043009F2576 /* GameViewController.swift */,
 				6076D37A1F51C043009F2576 /* Main.storyboard */,
 				6076D37D1F51C043009F2576 /* Assets.xcassets */,
+				6076D3881F51D768009F2576 /* MissileSound.wav */,
 				6076D37F1F51C043009F2576 /* LaunchScreen.storyboard */,
 				6076D3821F51C043009F2576 /* Info.plist */,
 			);
@@ -136,6 +139,7 @@
 				6076D37C1F51C043009F2576 /* Main.storyboard in Resources */,
 				6076D3731F51C043009F2576 /* GameScene.sks in Resources */,
 				6076D37E1F51C043009F2576 /* Assets.xcassets in Resources */,
+				6076D3891F51D768009F2576 /* MissileSound.wav in Resources */,
 				6076D3811F51C043009F2576 /* LaunchScreen.storyboard in Resources */,
 				6076D3751F51C043009F2576 /* Actions.sks in Resources */,
 			);
