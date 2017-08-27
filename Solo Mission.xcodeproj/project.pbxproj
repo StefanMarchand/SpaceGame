@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6016B6771F534EED00E6BF7D /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6016B6761F534EED00E6BF7D /* theBoldFont.ttf */; };
 		6076D3711F51C043009F2576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076D3701F51C043009F2576 /* AppDelegate.swift */; };
 		6076D3731F51C043009F2576 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6076D3721F51C043009F2576 /* GameScene.sks */; };
 		6076D3751F51C043009F2576 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6076D3741F51C043009F2576 /* Actions.sks */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6016B6761F534EED00E6BF7D /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
 		6076D36D1F51C043009F2576 /* Solo Mission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solo Mission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6076D3701F51C043009F2576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6076D3721F51C043009F2576 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				6076D3741F51C043009F2576 /* Actions.sks */,
 				6076D3761F51C043009F2576 /* GameScene.swift */,
 				6076D3781F51C043009F2576 /* GameViewController.swift */,
+				6016B6761F534EED00E6BF7D /* theBoldFont.ttf */,
 				6076D37A1F51C043009F2576 /* Main.storyboard */,
 				6076D37D1F51C043009F2576 /* Assets.xcassets */,
 				6076D3881F51D768009F2576 /* MissileSound.wav */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6076D37C1F51C043009F2576 /* Main.storyboard in Resources */,
+				6016B6771F534EED00E6BF7D /* theBoldFont.ttf in Resources */,
 				6076D3731F51C043009F2576 /* GameScene.sks in Resources */,
 				6076D37E1F51C043009F2576 /* Assets.xcassets in Resources */,
 				6076D3891F51D768009F2576 /* MissileSound.wav in Resources */,
@@ -324,6 +328,7 @@
 				6076D3871F51C043009F2576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
